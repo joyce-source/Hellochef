@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.work{
+    width:100%;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/BANNER\ PAGE\ 2.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.fill h1{
+    font-size: 120px;
+    margin-bottom: 10px;
+    margin-top: 90px; 
+    text-align: center; 
+    padding: 10px;
+    justify-content: center;
+}
+.fill h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    margin-top: 0; 
+    text-align: center; 
+    padding: 10px;
+    justify-content: center;
+    font-weight: lighter;
+    color: rgba(160, 160, 160, 0.916);
+}
+.steps{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.steps >div{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border-bottom: 2px solid #9999994d;
+    padding: 40px 20px;
+
+}
+.imgleft{
+ width: 40%;
+ height: 290px;
+ border-radius: 12px;
+}
+.textright button{
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.textright{
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    font-size: 23px;
+    /* text-align: center; */
+    margin-left: 10px;
+    /* text-justify: inter-cluster; */
+}
+.faq-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+.faqs{
+    display: flex;
+    gap: 40px;
+}
+.faq-section h1 {
+    color: black;
+    display:inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 48px;
+}
+.faq-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+.faq-question {
+    background-color: #fff;
+    padding: 19px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+.faq-section button {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold; 
+}
